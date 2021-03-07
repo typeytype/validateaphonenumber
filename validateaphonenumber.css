@@ -1,9 +1,19 @@
+body {
+  font-family: Poppins, 'sans serif';
+  font-size: 14px;
+}
+
 #bg {
     background-color: ivory;
     text-align: center;
     height: 200px;
     width: 400px;
     margin: auto;
-    border: 3px solid black
+    border: 3px solid black;
+    border-radius: 10px;
   
   }  
+
+#disclaimer {
+  font-size: 8px;
+}
