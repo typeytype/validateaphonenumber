@@ -18,7 +18,10 @@ In terms of the regular expression itself it begins with an option 1 as per the 
 
 /* The below if else simply prints a string into our HTML element if the passed function is valid. */
     
-    if (telephoneCheck(str)) {document.getElementById('answer').innerHTML = 'The number is valid.'}
+    if ((document.getElementById('realno').value) == '') {document.getElementById('answer').innerHTML = ''}
+
+
+    else if (telephoneCheck(str)) {document.getElementById('answer').innerHTML = 'The number is valid.'}
     
     else {document.getElementById('answer').innerHTML = 'You have not input a valid number.'}
     }
